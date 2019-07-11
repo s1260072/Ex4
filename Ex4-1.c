@@ -9,4 +9,8 @@ int main(void){
     a=rand()%6+1;
     b=rand()%6+1;
     printf("Die 1: %d \nDie 2: %d\nTotal value: %d\n",a,b,a+b);
+    if(a+b>7){
+      printf("You won\n");
+    }
+    else printf("You lost");
 }
